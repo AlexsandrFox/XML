@@ -1,1 +1,66 @@
+<Bug1>
+<title>
+  incoming email attachments not loading letters
+  </title>
 
+<Description>
+  uploading files does not work when replying to a letter using the (reply) button from this e-mail (Ukr.net)
+</Description>
+  <conditions="to play the demand. 2 mail">
+  <email>
+shchybrya@gmail.com 
+  <Log>......</Log.>
+  <Pas.>.......</Pas.>
+s.alex1987@ukr.net
+    <Log.>......</Log.>
+    <Pas.>........</Pas.>
+  <email>
+</conditions>
+    <Steps>
+      <one>
+        Log in to email (shchybrya@gmail.com), create email. letter
+      </one>
+      <two>
+        send email (s.alex1987@ukr.net)
+      </two>
+      <three>
+        go to email (s.alex1987@ukr.net), select the tab (inbox)
+      </three>
+      <four>
+       in the opened tab (inbox) open the incoming letter sent from e-mail (shchybrya@gmail.com) 
+      </four>
+      <five>
+       in the opened letter, press the button (reply) 
+      </five>
+      <six>
+       in the opened tab of the response letter, click the button (file)", 
+      </six>
+      <seven>
+        in the opened file window, select any several files of different types, press the button (open)
+      <type>txt,json,xml,mp3,mp4,imag</type>
+      </seven>
+      <eight>
+       send an email to (shchybrya@gmail.com) 
+      </eight>
+      <nine>
+       go to email mail (shchybrya@gmail.com) 
+      </nine>
+      <ten>
+       in the opened e-mail (shchybrya@gmail.com) select the tab (inbox) 
+      </ten>
+      <eleven>
+        in the opened tab (inbox) open the incoming letter sent from e-mail (s.alex1987@ukr.net)
+      </eleven>
+      <twelve>
+        in the opened letter, click on the files attached to it to download
+      </twelve>
+    </Steps>
+    <result>
+      <actual>
+        when clicking on an attachment in an incoming email, the file is not downloaded
+        </actual>
+      <expected>
+        you need to fix the error, the files should be loaded when you click on the file icon. Although visually when opening a letter the icon is displayed
+        </expected>
+      </result>
+ </Bug1>
